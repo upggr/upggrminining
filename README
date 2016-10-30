@@ -1,1 +1,1 @@
-mkdir /zcash && chmod -R 0777 /zcash && wget https://raw.githubusercontent.com/upggr/upggrminining/master/zcash-init.sh -v -O /zcash/zcash-init.sh && apt-get update -y && apt install upstart qt5-default make g++ git htop -y && chmod +x /zcash/zcash-init.sh && cd /zcash && ./zcash-init.sh; 
+mkdir /zcash && chmod -R 0777 /zcash && wget https://raw.githubusercontent.com/upggr/upggrminining/master/zcash-init.sh -v -O /zcash/zcash-init.sh && apt-get update -y && apt install qt5-default make g++ git htop -y && chmod +x /zcash/zcash-init.sh && cd /zcash && ./zcash-init.sh; 
