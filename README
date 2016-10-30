@@ -1,3 +1,3 @@
-Single command to spawn a zcash miner in the fly pool using azure, aws or any other ubuntu 16 +. Every time the system restarts you get a fresh compiled miner and a new rig name.
+Single command to spawn a zcash miner in the fly pool using azure, aws or any other ubuntu 16 +. Every time the system restarts you get a fresh compiled miner and a new rig name. address is in the zcash.sh, so clone this repo and change references.
 
 mkdir /zcash && chmod -R 0777 /zcash && wget https://raw.githubusercontent.com/upggr/upggrminining/master/zcash-init.sh -v -O /zcash/zcash-init.sh && apt-get update -y && apt install qt5-default make g++ git htop -y && chmod +x /zcash/zcash-init.sh && cd /zcash && ./zcash-init.sh;
