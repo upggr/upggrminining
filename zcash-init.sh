@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ~/
+cd /root
 touch /etc/init/zcash.conf
 wget -O /etc/init/zcash.conf https://raw.githubusercontent.com/upggr/upggrminining/master/zcash.conf
 wget https://raw.githubusercontent.com/upggr/upggrminining/master/zcash.sh

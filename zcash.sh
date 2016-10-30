@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ~/
+cd /root
 rm -rf *
 apt-get update -y
 apt-get install qt5-default make g++ git htop -y
