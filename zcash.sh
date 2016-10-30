@@ -1,5 +1,6 @@
 #!/bin/sh
 cd /zcash
+rm -rf nheqminer
 git clone https://github.com/etherchain-org/nheqminer.git
 cd nheqminer
 mkdir build
