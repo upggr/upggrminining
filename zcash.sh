@@ -7,5 +7,7 @@ mkdir build
 cd build
 qmake ../nheqminer/nheqminer.pro
 make
-rand=$RANDOM
-./nheqminer -l eu1-zcash.flypool.org:3333 -u t1UMAB29uJjn55arRq4ojLGqvQvRv1Le2GR.$rand
+timestamp() {
+  date +"%T"
+}
+./nheqminer -l eu1-zcash.flypool.org:3333 -u t1UMAB29uJjn55arRq4ojLGqvQvRv1Le2GR.timestamp
