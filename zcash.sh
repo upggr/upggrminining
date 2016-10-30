@@ -1,6 +1,6 @@
 rm -rf *
-sudo apt-get update
-sudo apt-get install qt5-default make g++
+apt-get update
+apt-get install qt5-default make g++
 git clone https://github.com/etherchain-org/nheqminer.git
 cd nheqminer
 mkdir build
