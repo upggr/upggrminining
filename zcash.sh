@@ -1,3 +1,4 @@
+#!/bin/sh
 cd ~/
 rm -rf *
 apt-get update -y
