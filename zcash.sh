@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get install qt5-default make g++
+git clone https://github.com/etherchain-org/nheqminer.git
+cd nheqminer
+mkdir build
+cd build
+qmake ../nheqminer/nheqminer.pro
+make
+rand=$RANDOM
+./nheqminer -l eu1-zcash.flypool.org:3333 -u t1UMAB29uJjn55arRq4ojLGqvQvRv1Le2GR.$rand
